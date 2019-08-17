@@ -18,7 +18,7 @@ def generate_data(username):
     data["user"] = {
         "name": user.name,
         "description": user.bio,
-        "profile-picture": user.avatar_url,
+        "picture": user.avatar_url,
         "location": user.location,
         "links": [
             {
@@ -55,8 +55,9 @@ def generate_data(username):
     data["projects"] = []
     for repo in repositories:
         data["projects"].append({
-            "name": repo.name.capitalize(),
+            "title": repo.name.capitalize(),
             "description": repo.description,
+            "image": "./img/profile.jpg",
             "languages": get_repo_languages(repo),
             "href_repository": repo.html_url,
             "href_preview": repo.homepage

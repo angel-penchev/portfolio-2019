@@ -2,7 +2,7 @@
     "user": {
         "name": "Angel Penchev",
         "description": null,
-        "profile-picture": "https://avatars3.githubusercontent.com/u/26301867?v=4",
+        "picture": "https://avatars3.githubusercontent.com/u/26301867?v=4",
         "location": "Sofia, Bulgaria",
         "links": [
             {
@@ -28,6 +28,7 @@
         ]
     },
     "technologies": [
+        "Python",
         "CSS",
         "HTML",
         "Dart",
@@ -42,9 +43,11 @@
     ],
     "projects": [
         {
-            "name": "Portfolio",
+            "title": "Portfolio",
             "description": null,
+            "image": "./img/profile.jpg",
             "languages": [
+                "Python",
                 "CSS",
                 "HTML"
             ],
@@ -52,8 +55,9 @@
             "href_preview": "https://angel-penchev.github.io/portfolio/"
         },
         {
-            "name": "Readability",
+            "title": "Readability",
             "description": "The app that enables the blind to interact with text.",
+            "image": "./img/profile.jpg",
             "languages": [
                 "Dart",
                 "OpenSCAD",
@@ -65,8 +69,9 @@
             "href_preview": null
         },
         {
-            "name": "We-will-develop-it-later",
+            "title": "We-will-develop-it-later",
             "description": "But maybe, just maybe, we will finish it one day :)",
+            "image": "./img/profile.jpg",
             "languages": [
                 "Java"
             ],
@@ -74,8 +79,9 @@
             "href_preview": null
         },
         {
-            "name": "Abbjs-robotics",
+            "title": "Abbjs-robotics",
             "description": null,
+            "image": "./img/profile.jpg",
             "languages": [
                 "JavaScript",
                 "CSS",
@@ -85,15 +91,9 @@
             "href_preview": null
         },
         {
-            "name": "Pythonsummertasks2018",
-            "description": "Repository (Portfolio) containing all the projects and programming tasks assigned for the summer holidays of 2018.",
-            "languages": [],
-            "href_repository": "https://github.com/angel-penchev/PythonSummerTasks2018",
-            "href_preview": ""
-        },
-        {
-            "name": "Projectblank",
+            "title": "Projectblank",
             "description": "This repository contains the game contents for Project Blank, a contestant in the HackTUESx30 programing competition.",
+            "image": "./img/profile.jpg",
             "languages": [
                 "C#",
                 "ShaderLab",
@@ -103,8 +103,9 @@
             "href_preview": null
         },
         {
-            "name": "Textartstudio",
+            "title": "Textartstudio",
             "description": "An editor for creating pictures with text",
+            "image": "./img/profile.jpg",
             "languages": [
                 "HTML",
                 "CSS",
