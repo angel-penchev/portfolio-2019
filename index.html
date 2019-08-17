@@ -1,42 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Angel Penchev | Full Stack Software Developer</title>
 
-    <link rel="stylesheet" href="./styles/stylesheet.css">
+    <link rel="stylesheet" href="./styles/css/stylesheet.css">
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="profile-section">
-            <div class="profile">
-                <img src="/img/profile.jpg" alt="Profile picture" class="profile-picture">
-                <h1 class="name">Angel Penchev</h1>
-                <h2 class="position">Full Stack Software Developer</h2>
-                <div class="separator"></div>
-                <h2 class="location">
-                    <img src="" alt="Location">
-                    <h2>Sofia, Bulgaria</h2>
-                </h2>
-                <div class="links">
-                    <a href="https://github.com/angel-penchev">
-                        <img src="" alt="Github">
-                    </a>
-                    <a href="">
-                        <img src="" alt="LinkedIn">
-                    </a>
-                    <a href="">
-                        <img src="" alt="Resume">
-                    </a>
-                    <a href="mailto://angel.penchev.tsb@gmail.com">
-                        <img src="" alt="Email">
-                    </a>
+    <main class="wrapper">
+        <section class="profile">
+            <img src="" alt="Profile picture" id="picture">
+            <h1 id="name"></h1>
+            <h2 id="description"></h2>
+            <div id="separator"></div>
+            <h2 id="location"></h2>
+            <div id="links"></div>
+        </section>
+        <section class="navigation">
+            <div class="navigation-line"></div>
+            <nav class="navigation">
+                <ul class="navigation">
+                    <li class="is-active">
+                        <h2>Technologies</h2>
+                    </li>
+                    <li>
+                        <h2>Projects</h2>
+                    </li>
+                    <li>
+                        <h2>Contact</h2>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="information">
+            <section class="slide technologies">
+                <h1 class="title">Technologies</h1>
+                <div class="subgroup">
+                    <h2 class="title">Front-End</h2>
+                    <img src="" alt="HTML5" class="technology">
+                    <img src="" alt="CSS3" class="technology">
+                    <img src="" alt="JavaScript" class="technology">
+                    <img src="" alt="Typescript" class="technology">
+                    <img src="" alt="AngularJS" class="technology">
+                    <img src="" alt="ReactJS" class="technology">
                 </div>
-            </div>
-        </div>
-        <div class="information"></div>
-    </div>
+                <div class="subgroup">
+                    <h2 class="title">Server</h2>
+                    <img src="" alt="NodeJS" class="technology">
+                    <img src="" alt="Python" class="technology">
+                    <img src="" alt="C#" class="technology">
+                    <img src="" alt="C/C++" class="technology">
+                </div>
+                <div class="subgroup">
+                    <h2 class="title">Database</h2>
+                    <img src="" alt="" class="technology">
+                    <img src="" alt="" class="technology">
+                </div>
+                <div class="subgroup">
+                    <h2 class="title">Deployment</h2>
+                    <img src="" alt="" class="technology">
+                    <img src="" alt="" class="technology">
+                    <img src="" alt="" class="technology">
+                    <img src="" alt="" class="technology">
+                </div>
+            </section>
+
+            <section class="slide is-active" id="projects">
+                <h1 class="title">Projects</h1>
+                <div class="slider">
+                    <div class="slide is-active">
+                        <img src="./img/profile.jpg" alt="" id="project-image">
+                        <h1 id="project-title">ASCII Drawer</h1>
+                        <p id="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cumque
+                            optio aliquam asperiores ab magnam obcaecati sint iste accusamus pariatur?</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="slide contact">
+                <h1 class="title">Contact</h1>
+                <form action="">
+                    <input type="text" name="name" id="name">
+                    <input type="text" name="company" id="company">
+                    <input type="text" name="email" id="email">
+                    <input type="text" name="message" id="message">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./scripts/information.js"></script>
 </body>
+
 </html>
