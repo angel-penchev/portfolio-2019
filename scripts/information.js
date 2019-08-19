@@ -20,6 +20,7 @@ function injectDataInDocument(data) {
     injectProfile();
     injectTechnologies();
     injectProjects();
+    injectContact();
 
     function injectProfile() {
         document.getElementById('picture').src = data.user.picture;
@@ -27,7 +28,10 @@ function injectDataInDocument(data) {
         document.getElementById('description').innerHTML = data.user.description;
         document.getElementById('location').innerHTML = data.user.location;
         data.user.links.forEach((link) => {
-            document.getElementById('links').innerHTML += "<a href=\"" + link.href + "\"><img src=\"" + link.img + "\" alt=\"" + link.title + "\"></a>"
+            document.getElementById('links').innerHTML +=
+                "<a href=\"" + link.href + "\">" +
+                    "<img src=\"" + link.img + "\" alt=\"" + link.title + "\">" +
+                "</a>"
         })
     }
 
@@ -37,10 +41,18 @@ function injectDataInDocument(data) {
 
     function injectProjects() {
         data.projects.forEach((project) => {
-            project_template = "<div class=\"slide is-active\"><img src=\"" + project.image + "\" alt=\"\" id=\"project-image\"><h1 id=\"project-title\">" + project.title + "</h1><p id=\"project-description\">" + project.description + "</p></div>"
+            project_template = 
+                "<div class=\"slide is-active\">" + 
+                    "<img src=\"" + project.image + "\" alt=\"\" id=\"project-image\">" +
+                    "<h1 id=\"project-title\">" + project.title + "</h1>" +
+                    "<p id=\"project-description\">" + project.description + "</p>" +
+                "</div>"
             document.getElementById("projects").getElementsByClassName("slider")[0].innerHTML += project_template;
         })
+    }
 
+    function injectContact() {
+        document.getElementsByName("contact-form")[0].setAttribute("action", "https://formspree.io/" + data.user.email);
     }
 }
 

@@ -37,7 +37,7 @@
             </nav>
         </section>
         <section class="information">
-            <section class="slide technologies">
+            <section class="slide" id="technologies">
                 <h1 class="title">Technologies</h1>
                 <div class="subgroup">
                     <h2 class="title">Front-End</h2>
@@ -69,7 +69,7 @@
                 </div>
             </section>
 
-            <section class="slide is-active" id="projects">
+            <section class="slide" id="projects">
                 <h1 class="title">Projects</h1>
                 <div class="slider">
                     <div class="slide is-active">
@@ -81,13 +81,13 @@
                 </div>
             </section>
 
-            <section class="slide contact">
+            <section class="slide is-active" id="contact">
                 <h1 class="title">Contact</h1>
-                <form action="">
-                    <input type="text" name="name" id="name">
-                    <input type="text" name="company" id="company">
-                    <input type="text" name="email" id="email">
-                    <input type="text" name="message" id="message">
+                <form name="contact-form" method="POST">
+                    <input type="text" name="name" id="name" placeholder="Ex.: Bogdan Popov">
+                    <input type="text" name="company" id="company" placeholder="Ex.: Varta LTD.">
+                    <input type="text" name="email" id="email" placeholder="Contact email...">
+                    <textarea name="message" id="message" placeholder="Type your message here..."></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </section>
