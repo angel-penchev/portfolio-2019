@@ -1,18 +1,20 @@
 import json
 from github import Github
 
-
-# username = "angel-penchev"
-
 def main():
-    username = input("What is your Github username? : ")
-    data = generate_data(username)
+    github_username = input("What is your Github username? : ")
+    linkedin_username = input("What is your LinkedIn username? (skip if the same) : ")
+    if (not linkedin_username):
+        linkedin_username = github_username
+    
+    data = generate_data(github_username, linkedin_username)
     save_file("profile.json", data)
 
-def generate_data(username):
+def generate_data(github_username, linkedin_username):
     g = Github()
-    user = g.get_user(username)
-    repositories = g.search_repositories(query="user:%s" % username, sort="updated")
+    user = g.get_user(github_username)
+    email = user.email or input("What is your Email address? : ")
+    repositories = g.search_repositories(query="user:%s" % github_username, sort="updated")
     data = {}
 
     data["user"] = {
@@ -20,16 +22,17 @@ def generate_data(username):
         "description": user.bio,
         "picture": user.avatar_url,
         "location": user.location,
+        "email": email,
         "links": [
             {
                 "title": "Github",
                 "img": "",
-                "href": "https://github.com/%s" % username
+                "href": "https://github.com/%s" % github_username
             },
             {
                 "title": "LinkedIn",
                 "img": "",
-                "href": "https://linkedin.com/in/%s" % input("What is your LinkedIn username? (optional) : ")
+                "href": "https://linkedin.com/in/%s" % linkedin_username
             },
             {
                 "title": "Resume",
@@ -39,7 +42,7 @@ def generate_data(username):
             {
                 "title": "Email",
                 "img": "",
-                "href": "mailto://%s" % input("What is your Email address? (optional) : ")
+                "href": "mailto://%s" % email
             }
         ]
     }

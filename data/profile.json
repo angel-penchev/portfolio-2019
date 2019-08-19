@@ -1,118 +1,99 @@
 {
-    "user": {
-        "name": "Angel Penchev",
-        "description": null,
-        "picture": "https://avatars3.githubusercontent.com/u/26301867?v=4",
-        "location": "Sofia, Bulgaria",
-        "links": [
-            {
-                "title": "Github",
-                "img": "",
-                "href": "https://github.com/angel-penchev"
-            },
-            {
-                "title": "LinkedIn",
-                "img": "",
-                "href": "https://linkedin.com/in/angel-penchev-405284191"
-            },
-            {
-                "title": "Resume",
-                "img": "",
-                "href": ""
-            },
-            {
-                "title": "Email",
-                "img": "",
-                "href": "mailto://angel.penchev.tsb@gmail.com"
-            }
-        ]
-    },
-    "technologies": [
-        "Python",
-        "CSS",
-        "HTML",
-        "Dart",
-        "OpenSCAD",
-        "Objective-C",
-        "C++",
-        "Java",
-        "JavaScript",
-        "C#",
-        "ShaderLab",
-        "HLSL"
-    ],
-    "projects": [
-        {
-            "title": "Portfolio",
-            "description": null,
-            "image": "./img/profile.jpg",
-            "languages": [
-                "Python",
-                "CSS",
-                "HTML"
-            ],
-            "href_repository": "https://github.com/angel-penchev/portfolio",
-            "href_preview": "https://angel-penchev.github.io/portfolio/"
-        },
-        {
-            "title": "Readability",
-            "description": "The app that enables the blind to interact with text.",
-            "image": "./img/profile.jpg",
-            "languages": [
-                "Dart",
-                "OpenSCAD",
-                "Objective-C",
-                "C++",
-                "Java"
-            ],
-            "href_repository": "https://github.com/angel-penchev/readability",
-            "href_preview": null
-        },
-        {
-            "title": "We-will-develop-it-later",
-            "description": "But maybe, just maybe, we will finish it one day :)",
-            "image": "./img/profile.jpg",
-            "languages": [
-                "Java"
-            ],
-            "href_repository": "https://github.com/angel-penchev/we-will-develop-it-later",
-            "href_preview": null
-        },
-        {
-            "title": "Abbjs-robotics",
-            "description": null,
-            "image": "./img/profile.jpg",
-            "languages": [
-                "JavaScript",
-                "CSS",
-                "HTML"
-            ],
-            "href_repository": "https://github.com/angel-penchev/abbjs-robotics",
-            "href_preview": null
-        },
-        {
-            "title": "Projectblank",
-            "description": "This repository contains the game contents for Project Blank, a contestant in the HackTUESx30 programing competition.",
-            "image": "./img/profile.jpg",
-            "languages": [
-                "C#",
-                "ShaderLab",
-                "HLSL"
-            ],
-            "href_repository": "https://github.com/angel-penchev/ProjectBlank",
-            "href_preview": null
-        },
-        {
-            "title": "Textartstudio",
-            "description": "An editor for creating pictures with text",
-            "image": "./img/profile.jpg",
-            "languages": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "href_repository": "https://github.com/angel-penchev/TextArtStudio",
-            "href_preview": null
-        }
+  "user": {
+    "name": "Angel Penchev",
+    "description": null,
+    "picture": "https://avatars3.githubusercontent.com/u/26301867?v=4",
+    "location": "Sofia, Bulgaria",
+    "email": "angel.penchev.tsb@gmail.com",
+    "links": [
+      {
+        "title": "Github",
+        "img": "",
+        "href": "https://github.com/angel-penchev"
+      },
+      {
+        "title": "LinkedIn",
+        "img": "",
+        "href": "https://linkedin.com/in/angel-penchev"
+      },
+      { "title": "Resume", "img": "", "href": "" },
+      {
+        "title": "Email",
+        "img": "",
+        "href": "mailto://angel.penchev.tsb@gmail.com"
+      }
     ]
+  },
+  "technologies": [
+    "CSS",
+    "HTML",
+    "Python",
+    "JavaScript",
+    "Dart",
+    "OpenSCAD",
+    "Objective-C",
+    "C++",
+    "Java",
+    "C#",
+    "ShaderLab",
+    "HLSL"
+  ],
+  "projects": [
+    {
+      "title": "Portfolio",
+      "description": "Webpage containing all a list of all the developer technologies I am familiar with and all the significant project I have contributed to.",
+      "image": "./img/profile.jpg",
+      "languages": ["CSS", "HTML", "Python", "JavaScript"],
+      "href_repository": "https://github.com/angel-penchev/portfolio",
+      "href_preview": "https://angel-penchev.github.io/portfolio/"
+    },
+    {
+      "title": "Readability",
+      "description": "Mobile application (Android/iOS) which captures text using the device's camera, recognizes it using Firebase ML Kit and sends it to an Bluetooth conected embedded Arduino device which converts it letter by letter to braille alphabet.",
+      "image": "./img/profile.jpg",
+      "languages": ["Dart", "OpenSCAD", "Objective-C", "C++", "Java"],
+      "href_repository": "https://github.com/angel-penchev/readability",
+      "href_preview": ""
+    },
+    {
+      "title": "We-will-develop-it-later",
+      "description": "But maybe, just maybe, we will finish it one day :)",
+      "image": "./img/profile.jpg",
+      "languages": ["Java"],
+      "href_repository": "https://github.com/angel-penchev/we-will-develop-it-later",
+      "href_preview": null
+    },
+    {
+      "title": "Abbjs-robotics",
+      "description": null,
+      "image": "./img/profile.jpg",
+      "languages": ["JavaScript", "CSS", "HTML"],
+      "href_repository": "https://github.com/angel-penchev/abbjs-robotics",
+      "href_preview": null
+    },
+    {
+      "title": "Pythonsummertasks2018",
+      "description": "Repository (Portfolio) containing all the projects and programming tasks assigned for the summer holidays of 2018.",
+      "image": "./img/profile.jpg",
+      "languages": [],
+      "href_repository": "https://github.com/angel-penchev/PythonSummerTasks2018",
+      "href_preview": ""
+    },
+    {
+      "title": "Projectblank",
+      "description": "This repository contains the game contents for Project Blank, a contestant in the HackTUESx30 programing competition.",
+      "image": "./img/profile.jpg",
+      "languages": ["C#", "ShaderLab", "HLSL"],
+      "href_repository": "https://github.com/angel-penchev/ProjectBlank",
+      "href_preview": null
+    },
+    {
+      "title": "Textartstudio",
+      "description": "Simple web-hosted tool for creation of art using ASCII characters and exporting it to clipboard for later use.",
+      "image": "./img/profile.jpg",
+      "languages": ["HTML", "CSS", "JavaScript"],
+      "href_repository": "https://github.com/angel-penchev/TextArtStudio",
+      "href_preview": ""
+    }
+  ]
 }
