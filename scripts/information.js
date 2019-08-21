@@ -29,7 +29,7 @@ function injectDataInDocument(data) {
         document.getElementById('location').innerHTML = data.user.location;
         data.user.links.forEach((link) => {
             document.getElementById('links').innerHTML +=
-                "<a href=\"" + link.href + "\">" +
+                "<a href=\"" + link.href + "\" target=\"_blank\" class=\"profile-link\">" +
                     "<img src=\"" + link.img + "\" alt=\"" + link.title + "\">" +
                 "</a>"
         })
@@ -40,15 +40,28 @@ function injectDataInDocument(data) {
     }
 
     function injectProjects() {
-        data.projects.forEach((project) => {
-            project_template = 
-                "<div class=\"slide is-active\">" + 
+        let slider = document.getElementById("projects").getElementsByClassName("slider")[0];
+        
+        for (let i = 0; i < 7; i++) {
+            project = data.projects[i]
+            slider.innerHTML +=
+                "<div class=\"slide\">" + 
                     "<img src=\"" + project.image + "\" alt=\"\" id=\"project-image\">" +
                     "<h1 id=\"project-title\">" + project.title + "</h1>" +
-                    "<p id=\"project-description\">" + project.description + "</p>" +
+                    "<div class=\"project-languages\"></div>" +
+                    "<p id=\"project-description\">" + project.description + "</p>"
                 "</div>"
-            document.getElementById("projects").getElementsByClassName("slider")[0].innerHTML += project_template;
-        })
+
+            slide = slider.getElementsByClassName("slide")[i];
+            project_languages = slide.getElementsByClassName("project-languages")[0];
+            
+            project.languages.forEach((language) => {
+                project_languages.innerHTML +=
+                    "<img src=\"" + language.image + "\" alt=\"language.title\">";
+            })
+        }
+
+        slider.getElementsByClassName("slide")[0].className += " is-active";
     }
 
     function injectContact() {

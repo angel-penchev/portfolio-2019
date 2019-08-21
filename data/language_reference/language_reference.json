@@ -1,0 +1,493 @@
+[
+  {
+    "title": "amazonwebservices",
+    "image": "../../img/icons/technologies/amazonwebservices/amazonwebservices-original.svg"
+  },
+  {
+    "title": "android",
+    "image": "../../img/icons/technologies/android/android-original.svg"
+  },
+  {
+    "title": "angularjs",
+    "image": "../../img/icons/technologies/angularjs/angularjs-original.svg"
+  },
+  {
+    "title": "apache",
+    "image": "../../img/icons/technologies/apache/apache-original.svg"
+  },
+  {
+    "title": "appcelerator",
+    "image": "../../img/icons/technologies/appcelerator/appcelerator-original.svg"
+  },
+  {
+    "title": "apple",
+    "image": "../../img/icons/technologies/apple/apple-original.svg"
+  },
+  {
+    "title": "atom",
+    "image": "../../img/icons/technologies/atom/atom-original.svg"
+  },
+  {
+    "title": "babel",
+    "image": "../../img/icons/technologies/babel/babel-original.svg"
+  },
+  {
+    "title": "backbonejs",
+    "image": "../../img/icons/technologies/backbonejs/backbonejs-original.svg"
+  },
+  {
+    "title": "behance",
+    "image": "../../img/icons/technologies/behance/behance-original.svg"
+  },
+  {
+    "title": "bitbucket",
+    "image": "../../img/icons/technologies/bitbucket/bitbucket-original.svg"
+  },
+  {
+    "title": "bootstrap",
+    "image": "../../img/icons/technologies/bootstrap/bootstrap-original.svg"
+  },
+  {
+    "title": "bower",
+    "image": "../../img/icons/technologies/bower/bower-original.svg"
+  },
+  { "title": "c", "image": "../../img/icons/technologies/c/c-original.svg" },
+  { "title": "objective-c", "image": "../../img/icons/technologies/c/c-original.svg" },
+  {
+    "title": "cakephp",
+    "image": "../../img/icons/technologies/cakephp/cakephp-original.svg"
+  },
+  {
+    "title": "ceylon",
+    "image": "../../img/icons/technologies/ceylon/ceylon-original.svg"
+  },
+  {
+    "title": "chrome",
+    "image": "../../img/icons/technologies/chrome/chrome-original.svg"
+  },
+  {
+    "title": "clojure",
+    "image": "../../img/icons/technologies/clojure/clojure-original.svg"
+  },
+  {
+    "title": "clojurescript",
+    "image": "../../img/icons/technologies/clojurescript/clojurescript-original.svg"
+  },
+  {
+    "title": "codeigniter",
+    "image": "../../img/icons/technologies/codeigniter/codeigniter-original.svg"
+  },
+  {
+    "title": "coffeescript",
+    "image": "../../img/icons/technologies/coffeescript/coffeescript-original.svg"
+  },
+  {
+    "title": "symfony",
+    "image": "../../img/icons/technologies/symfony/symfony-original.svg"
+  },
+  {
+    "title": "tomcat",
+    "image": "../../img/icons/technologies/tomcat/tomcat-original.svg"
+  },
+  {
+    "title": "travis",
+    "image": "../../img/icons/technologies/travis/travis-original.svg"
+  },
+  {
+    "title": "trello",
+    "image": "../../img/icons/technologies/trello/trello-original.svg"
+  },
+  {
+    "title": "twitter",
+    "image": "../../img/icons/technologies/twitter/twitter-original.svg"
+  },
+  {
+    "title": "typescript",
+    "image": "../../img/icons/technologies/typescript/typescript-original.svg"
+  },
+  {
+    "title": "ubuntu",
+    "image": "../../img/icons/technologies/ubuntu/ubuntu-original.svg"
+  },
+  {
+    "title": "vagrant",
+    "image": "../../img/icons/technologies/vagrant/vagrant-original.svg"
+  },
+  {
+    "title": "vim",
+    "image": "../../img/icons/technologies/vim/vim-original.svg"
+  },
+  {
+    "title": "visualstudio",
+    "image": "../../img/icons/technologies/visualstudio/visualstudio-original.svg"
+  },
+  {
+    "title": "vuejs",
+    "image": "../../img/icons/technologies/vuejs/vuejs-original.svg"
+  },
+  {
+    "title": "webpack",
+    "image": "../../img/icons/technologies/webpack/webpack-original.svg"
+  },
+  {
+    "title": "webstorm",
+    "image": "../../img/icons/technologies/webstorm/webstorm-original.svg"
+  },
+  {
+    "title": "windows8",
+    "image": "../../img/icons/technologies/windows8/windows8-original.svg"
+  },
+  {
+    "title": "wordpress",
+    "image": "../../img/icons/technologies/wordpress/wordpress-original.svg"
+  },
+  {
+    "title": "yarn",
+    "image": "../../img/icons/technologies/yarn/yarn-original.svg"
+  },
+  {
+    "title": "yii",
+    "image": "../../img/icons/technologies/yii/yii-original.svg"
+  },
+  {
+    "title": "yunohost",
+    "image": "../../img/icons/technologies/yunohost/yunohost-original.svg"
+  },
+  {
+    "title": "zend",
+    "image": "../../img/icons/technologies/zend/zend-original.svg"
+  },
+  {
+    "title": "phpstorm",
+    "image": "../../img/icons/technologies/phpstorm/phpstorm-original.svg"
+  },
+  {
+    "title": "postgresql",
+    "image": "../../img/icons/technologies/postgresql/postgresql-original.svg"
+  },
+  {
+    "title": "protractor",
+    "image": "../../img/icons/technologies/protractor/protractor-original.svg"
+  },
+  {
+    "title": "pycharm",
+    "image": "../../img/icons/technologies/pycharm/pycharm-original.svg"
+  },
+  {
+    "title": "python",
+    "image": "../../img/icons/technologies/python/python-original.svg"
+  },
+  {
+    "title": "rails",
+    "image": "../../img/icons/technologies/rails/rails-original.svg"
+  },
+  {
+    "title": "react",
+    "image": "../../img/icons/technologies/react/react-original.svg"
+  },
+  {
+    "title": "redhat",
+    "image": "../../img/icons/technologies/redhat/redhat-original.svg"
+  },
+  {
+    "title": "redis",
+    "image": "../../img/icons/technologies/redis/redis-original.svg"
+  },
+  {
+    "title": "redux",
+    "image": "../../img/icons/technologies/redux/redux-original.svg"
+  },
+  {
+    "title": "ruby",
+    "image": "../../img/icons/technologies/ruby/ruby-original.svg"
+  },
+  {
+    "title": "rubymine",
+    "image": "../../img/icons/technologies/rubymine/rubymine-original.svg"
+  },
+  {
+    "title": "safari",
+    "image": "../../img/icons/technologies/safari/safari-original.svg"
+  },
+  {
+    "title": "sass",
+    "image": "../../img/icons/technologies/sass/sass-original.svg"
+  },
+  {
+    "title": "sequelize",
+    "image": "../../img/icons/technologies/sequelize/sequelize-original.svg"
+  },
+  {
+    "title": "sketch",
+    "image": "../../img/icons/technologies/sketch/sketch-original.svg"
+  },
+  {
+    "title": "slack",
+    "image": "../../img/icons/technologies/slack/slack-original.svg"
+  },
+  {
+    "title": "sourcetree",
+    "image": "../../img/icons/technologies/sourcetree/sourcetree-original.svg"
+  },
+  {
+    "title": "ssh",
+    "image": "../../img/icons/technologies/ssh/ssh-original.svg"
+  },
+  {
+    "title": "stylus",
+    "image": "../../img/icons/technologies/stylus/stylus-original.svg"
+  },
+  {
+    "title": "javascript",
+    "image": "../../img/icons/technologies/javascript/javascript-original.svg"
+  },
+  {
+    "title": "jeet",
+    "image": "../../img/icons/technologies/jeet/jeet-original.svg"
+  },
+  {
+    "title": "jetbrains",
+    "image": "../../img/icons/technologies/jetbrains/jetbrains-original.svg"
+  },
+  {
+    "title": "jquery",
+    "image": "../../img/icons/technologies/jquery/jquery-original.svg"
+  },
+  {
+    "title": "krakenjs",
+    "image": "../../img/icons/technologies/krakenjs/krakenjs-original.svg"
+  },
+  {
+    "title": "laravel",
+    "image": "../../img/icons/technologies/laravel/laravel-original.svg"
+  },
+  {
+    "title": "less",
+    "image": "../../img/icons/technologies/less/less-original.svg"
+  },
+  {
+    "title": "linkedin",
+    "image": "../../img/icons/technologies/linkedin/linkedin-original.svg"
+  },
+  {
+    "title": "linux",
+    "image": "../../img/icons/technologies/linux/linux-original.svg"
+  },
+  {
+    "title": "meteor",
+    "image": "../../img/icons/technologies/meteor/meteor-original.svg"
+  },
+  {
+    "title": "mocha",
+    "image": "../../img/icons/technologies/mocha/mocha-original.svg"
+  },
+  {
+    "title": "mongodb",
+    "image": "../../img/icons/technologies/mongodb/mongodb-original.svg"
+  },
+  {
+    "title": "moodle",
+    "image": "../../img/icons/technologies/moodle/moodle-original.svg"
+  },
+  {
+    "title": "mysql",
+    "image": "../../img/icons/technologies/mysql/mysql-original.svg"
+  },
+  {
+    "title": "nginx",
+    "image": "../../img/icons/technologies/nginx/nginx-original.svg"
+  },
+  {
+    "title": "nodejs",
+    "image": "../../img/icons/technologies/nodejs/nodejs-original.svg"
+  },
+  {
+    "title": "nodewebkit",
+    "image": "../../img/icons/technologies/nodewebkit/nodewebkit-original.svg"
+  },
+  {
+    "title": "npm",
+    "image": "../../img/icons/technologies/npm/npm-original.svg"
+  },
+  {
+    "title": "oracle",
+    "image": "../../img/icons/technologies/oracle/oracle-original.svg"
+  },
+  {
+    "title": "photoshop",
+    "image": "../../img/icons/technologies/photoshop/photoshop-original.svg"
+  },
+  {
+    "title": "foundation",
+    "image": "../../img/icons/technologies/foundation/foundation-original.svg"
+  },
+  {
+    "title": "gatling",
+    "image": "../../img/icons/technologies/gatling/gatling-original.svg"
+  },
+  {
+    "title": "gimp",
+    "image": "../../img/icons/technologies/gimp/gimp-original.svg"
+  },
+  {
+    "title": "git",
+    "image": "../../img/icons/technologies/git/git-original.svg"
+  },
+  {
+    "title": "github",
+    "image": "../../img/icons/technologies/github/github-original.svg"
+  },
+  {
+    "title": "gitlab",
+    "image": "../../img/icons/technologies/gitlab/gitlab-original.svg"
+  },
+  { "title": "go", "image": "../../img/icons/technologies/go/go-original.svg" },
+  {
+    "title": "google",
+    "image": "../../img/icons/technologies/google/google-original.svg"
+  },
+  {
+    "title": "gradle",
+    "image": "../../img/icons/technologies/gradle/gradle-original.svg"
+  },
+  {
+    "title": "grunt",
+    "image": "../../img/icons/technologies/grunt/grunt-original.svg"
+  },
+  {
+    "title": "gulp",
+    "image": "../../img/icons/technologies/gulp/gulp-original.svg"
+  },
+  {
+    "title": "handlebars",
+    "image": "../../img/icons/technologies/handlebars/handlebars-original.svg"
+  },
+  {
+    "title": "heroku",
+    "image": "../../img/icons/technologies/heroku/heroku-original.svg"
+  },
+  {
+    "title": "html",
+    "image": "../../img/icons/technologies/html5/html5-original.svg"
+  },
+  {
+    "title": "ie10",
+    "image": "../../img/icons/technologies/ie10/ie10-original.svg"
+  },
+  {
+    "title": "illustrator",
+    "image": "../../img/icons/technologies/illustrator/illustrator-original.svg"
+  },
+  {
+    "title": "inkscape",
+    "image": "../../img/icons/technologies/inkscape/inkscape-original.svg"
+  },
+  {
+    "title": "intellij",
+    "image": "../../img/icons/technologies/intellij/intellij-original.svg"
+  },
+  {
+    "title": "ionic",
+    "image": "../../img/icons/technologies/ionic/ionic-original.svg"
+  },
+  {
+    "title": "jasmine",
+    "image": "../../img/icons/technologies/jasmine/jasmine-original.svg"
+  },
+  {
+    "title": "confluence",
+    "image": "../../img/icons/technologies/confluence/confluence-original.svg"
+  },
+  {
+    "title": "firefox",
+    "image": "../../img/icons/technologies/firefox/firefox-original.svg"
+  },
+  {
+    "title": "java",
+    "image": "../../img/icons/technologies/java/java-original.svg"
+  },
+  {
+    "title": "php",
+    "image": "../../img/icons/technologies/php/php-original.svg"
+  },
+  {
+    "title": "swift",
+    "image": "../../img/icons/technologies/swift/swift-original.svg"
+  },
+  {
+    "title": "couchdb",
+    "image": "../../img/icons/technologies/couchdb/couchdb-original.svg"
+  },
+  {
+    "title": "c++",
+    "image": "../../img/icons/technologies/cplusplus/cplusplus-original.svg"
+  },
+  {
+    "title": "c#",
+    "image": "../../img/icons/technologies/csharp/csharp-original.svg"
+  },
+  {
+    "title": "css",
+    "image": "../../img/icons/technologies/css3/css3-original.svg"
+  },
+  {
+    "title": "cucumber",
+    "image": "../../img/icons/technologies/cucumber/cucumber-original.svg"
+  },
+  {
+    "title": "d3js",
+    "image": "../../img/icons/technologies/d3js/d3js-original.svg"
+  },
+  {
+    "title": "debian",
+    "image": "../../img/icons/technologies/debian/debian-original.svg"
+  },
+  {
+    "title": "devicon",
+    "image": "../../img/icons/technologies/devicon/devicon-original.svg"
+  },
+  {
+    "title": "django",
+    "image": "../../img/icons/technologies/django/django-original.svg"
+  },
+  {
+    "title": "docker",
+    "image": "../../img/icons/technologies/docker/docker-original.svg"
+  },
+  {
+    "title": "doctrine",
+    "image": "../../img/icons/technologies/doctrine/doctrine-original.svg"
+  },
+  {
+    "title": "dot-net",
+    "image": "../../img/icons/technologies/dot-net/dot-net-original.svg"
+  },
+  {
+    "title": "drupal",
+    "image": "../../img/icons/technologies/drupal/drupal-original.svg"
+  },
+  {
+    "title": "electron",
+    "image": "../../img/icons/technologies/electron/electron-original.svg"
+  },
+  {
+    "title": "elm",
+    "image": "../../img/icons/technologies/elm/elm-original.svg"
+  },
+  {
+    "title": "ember",
+    "image": "../../img/icons/technologies/ember/ember-original.svg"
+  },
+  {
+    "title": "erlang",
+    "image": "../../img/icons/technologies/erlang/erlang-original.svg"
+  },
+  {
+    "title": "express",
+    "image": "../../img/icons/technologies/express/express-original.svg"
+  },
+  {
+    "title": "facebook",
+    "image": "../../img/icons/technologies/facebook/facebook-original.svg"
+  }
+]
