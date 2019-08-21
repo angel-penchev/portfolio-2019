@@ -57,7 +57,7 @@ function injectDataInDocument(data) {
             
             project.languages.forEach((language) => {
                 project_languages.innerHTML +=
-                    "<img src=\"" + language.image + "\" alt=\"language.title\">";
+                    "<img src=\"" + language.img + "\" alt=\"language.title\">";
             })
         }
 

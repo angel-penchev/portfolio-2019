@@ -13,7 +13,7 @@ def generate_data(directory):
                 title = language.replace("../../img/icons/technologies/", "")
                 languages.append({
                         "title": title,
-                        "image": language + "/" + title + "-original.svg"
+                        "img": language.replace("../.", "") + "/" + title + "-original.svg"
                 })
 
         return languages

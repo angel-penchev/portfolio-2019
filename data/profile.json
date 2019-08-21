@@ -24,42 +24,42 @@
       {
         "title": "Email",
         "img": "./img/icons/misc/email/email.png",
-        "href": "mailto://angel.penchev.tsb@gmail.com"
+        "href": "mailto:angel.penchev.tsb@gmail.com"
       }
     ]
   },
   "technologies": [
     {
       "title": "CSS",
-      "href": "../../img/icons/technologies/css3/css3-original.svg"
-    },
-    {
-      "title": "HTML",
-      "href": "../../img/icons/technologies/html5/html5-original.svg"
+      "img": "./img/icons/technologies/css3/css3-original.svg"
     },
     {
       "title": "Python",
-      "href": "../../img/icons/technologies/python/python-original.svg"
+      "img": "./img/icons/technologies/python/python-original.svg"
+    },
+    {
+      "title": "HTML",
+      "img": "./img/icons/technologies/html5/html5-original.svg"
     },
     {
       "title": "JavaScript",
-      "href": "../../img/icons/technologies/javascript/javascript-original.svg"
+      "img": "./img/icons/technologies/javascript/javascript-original.svg"
     },
     {
       "title": "Objective-C",
-      "href": "../../img/icons/technologies/c/c-original.svg"
+      "img": "./img/icons/technologies/c/c-original.svg"
     },
     {
       "title": "C++",
-      "href": "../../img/icons/technologies/cplusplus/cplusplus-original.svg"
+      "img": "./img/icons/technologies/cplusplus/cplusplus-original.svg"
     },
     {
       "title": "Java",
-      "href": "../../img/icons/technologies/java/java-original.svg"
+      "img": "./img/icons/technologies/java/java-original.svg"
     },
     {
       "title": "C#",
-      "href": "../../img/icons/technologies/csharp/csharp-original.svg"
+      "img": "./img/icons/technologies/csharp/csharp-original.svg"
     }
   ],
   "projects": [
@@ -70,19 +70,19 @@
       "languages": [
         {
           "title": "CSS",
-          "href": "../../img/icons/technologies/css3/css3-original.svg"
-        },
-        {
-          "title": "HTML",
-          "href": "../../img/icons/technologies/html5/html5-original.svg"
+          "img": "./img/icons/technologies/css3/css3-original.svg"
         },
         {
           "title": "Python",
-          "href": "../../img/icons/technologies/python/python-original.svg"
+          "img": "./img/icons/technologies/python/python-original.svg"
+        },
+        {
+          "title": "HTML",
+          "img": "./img/icons/technologies/html5/html5-original.svg"
         },
         {
           "title": "JavaScript",
-          "href": "../../img/icons/technologies/javascript/javascript-original.svg"
+          "img": "./img/icons/technologies/javascript/javascript-original.svg"
         }
       ],
       "href_repository": "https://github.com/angel-penchev/portfolio",
@@ -93,18 +93,17 @@
       "description": "Mobile application (Android/iOS) which captures text using the device's camera, recognizes it using Firebase ML Kit and sends it to an Bluetooth conected embedded Arduino device which converts it letter by letter to braille alphabet.",
       "image": "./img/profile.jpg",
       "languages": [
-
         {
           "title": "Objective-C",
-          "href": "../../img/icons/technologies/c/c-original.svg"
+          "img": "./img/icons/technologies/c/c-original.svg"
         },
         {
           "title": "C++",
-          "href": "../../img/icons/technologies/cplusplus/cplusplus-original.svg"
+          "img": "./img/icons/technologies/cplusplus/cplusplus-original.svg"
         },
         {
           "title": "Java",
-          "href": "../../img/icons/technologies/java/java-original.svg"
+          "img": "./img/icons/technologies/java/java-original.svg"
         }
       ],
       "href_repository": "https://github.com/angel-penchev/readability",
@@ -117,7 +116,7 @@
       "languages": [
         {
           "title": "Java",
-          "href": "../../img/icons/technologies/java/java-original.svg"
+          "img": "./img/icons/technologies/java/java-original.svg"
         }
       ],
       "href_repository": "https://github.com/angel-penchev/we-will-develop-it-later",
@@ -130,15 +129,15 @@
       "languages": [
         {
           "title": "JavaScript",
-          "href": "../../img/icons/technologies/javascript/javascript-original.svg"
+          "img": "./img/icons/technologies/javascript/javascript-original.svg"
         },
         {
           "title": "CSS",
-          "href": "../../img/icons/technologies/css3/css3-original.svg"
+          "img": "./img/icons/technologies/css3/css3-original.svg"
         },
         {
           "title": "HTML",
-          "href": "../../img/icons/technologies/html5/html5-original.svg"
+          "img": "./img/icons/technologies/html5/html5-original.svg"
         }
       ],
       "href_repository": "https://github.com/angel-penchev/abbjs-robotics",
@@ -159,7 +158,7 @@
       "languages": [
         {
           "title": "C#",
-          "href": "../../img/icons/technologies/csharp/csharp-original.svg"
+          "img": "./img/icons/technologies/csharp/csharp-original.svg"
         }
       ],
       "href_repository": "https://github.com/angel-penchev/ProjectBlank",
@@ -172,15 +171,15 @@
       "languages": [
         {
           "title": "HTML",
-          "href": "../../img/icons/technologies/html5/html5-original.svg"
+          "img": "./img/icons/technologies/html5/html5-original.svg"
         },
         {
           "title": "CSS",
-          "href": "../../img/icons/technologies/css3/css3-original.svg"
+          "img": "./img/icons/technologies/css3/css3-original.svg"
         },
         {
           "title": "JavaScript",
-          "href": "../../img/icons/technologies/javascript/javascript-original.svg"
+          "img": "./img/icons/technologies/javascript/javascript-original.svg"
         }
       ],
       "href_repository": "https://github.com/angel-penchev/TextArtStudio",

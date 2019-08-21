@@ -49,7 +49,7 @@ def generate_data(github_username, linkedin_username):
             {
                 "title": "Email",
                 "img": "./img/icons/misc/email/email.png",
-                "href": "mailto://%s" % email
+                "href": "mailto:%s" % email
             }
         ]
     }
