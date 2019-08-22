@@ -54,12 +54,20 @@ def generate_data(github_username, linkedin_username):
         ]
     }
 
-    data["technologies"] = []
+    content = [];
     for repo in repositories:
         languages = repo.get_languages()
         for language in languages:
-            if not(language_catalog(language_reference, language) in data["technologies"]):
-                data["technologies"].append(language_catalog(language_reference, language))
+            if not(language_catalog(language_reference, language) in content):
+                content.append(language_catalog(language_reference, language))
+    
+    data["technologies"] = [
+        {
+            "title": "Uncategorised",
+            "content": content
+        }
+    ]
+    
 
 
     data["projects"] = []

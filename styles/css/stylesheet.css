@@ -97,20 +97,20 @@ a {
       grid-template-columns: 1fr 2fr;
       grid-column-gap: 0.25em;
       align-items: center; } }
-  .profile #picture {
+  .profile .picture {
     width: 85%;
     border-radius: 100%;
     margin: 1em;
     box-shadow: var(--primary-shadow); }
-  .profile #location::before {
+  .profile .location::before {
     content: url(); }
-  .profile #links .profile-link img {
+  .profile .links .profile-link img {
     margin: 0.25em 0.5em;
     width: 1.75em;
     border-radius: 100%;
     background-color: var(--suttle-color); }
     @media screen and (max-width: 700px) {
-      .profile #links .profile-link img {
+      .profile .links .profile-link img {
         width: 1.5em; } }
 
 /* End of Profile section styles */
@@ -165,9 +165,24 @@ a {
     transition: -webkit-transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; }
-  .section-slider #projects {
+  .section-slider .technologies .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    /* IE */
+    -moz-transform: translateY(-50%);
+    /* Firefox */
+    -webkit-transform: translateY(-50%);
+    /* Safari and Chrome */
+    -o-transform: translateY(-50%);
+    text-align: center; }
+    .section-slider .technologies .content img {
+      margin: 0.25em 0.5em;
+      width: 7.5%; }
+  .section-slider .projects {
     border: 1px blue solid; }
-    .section-slider #projects .slider {
+    .section-slider .projects .slider {
       display: block;
       position: relative;
       top: 50%;
@@ -179,15 +194,15 @@ a {
       -webkit-transform: translateY(-50%);
       /* Safari and Chrome */
       -o-transform: translateY(-50%); }
-      .section-slider #projects .slider .slide {
+      .section-slider .projects .slider .slide {
         display: none;
         text-align: center; }
-        .section-slider #projects .slider .slide.is-active {
+        .section-slider .projects .slider .slide.is-active {
           display: block; }
-        .section-slider #projects .slider .slide #project-image {
+        .section-slider .projects .slider .slide .project-image {
           width: 30%;
           border-radius: 100%; }
-        .section-slider #projects .slider .slide .project-languages img {
+        .section-slider .projects .slider .slide .project-languages img {
           margin: 0.25em;
           width: 2.5%; }
 

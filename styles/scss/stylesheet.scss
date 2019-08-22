@@ -115,18 +115,18 @@ a {
     grid-column-gap: 0.25em;
     align-items: center;
   }
-  #picture {
+  .picture {
     width: 85%;
     border-radius: 100%;
     margin: 1em;
     box-shadow: var(--primary-shadow);
   }
 
-  #location::before {
+  .location::before {
     content: url();
   }
 
-  #links {
+  .links {
     .profile-link {
       img {
         margin: 0.25em 0.5em;
@@ -215,7 +215,17 @@ a {
     transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
   }
 
-  #projects {
+  .technologies {
+    .content {
+      @include vertical_align();
+      text-align: center;
+      img {
+        margin: 0.25em 0.5em;
+        width: 7.5%;
+      }
+    }
+  }
+  .projects {
     border: 1px blue solid;
     .slider {
       display: block;
@@ -229,7 +239,7 @@ a {
           display: block;
         }
 
-        #project-image {
+        .project-image {
           width: 30%;
           border-radius: 100%;
         }

@@ -15,14 +15,14 @@
     <main class="wrapper">
         <section class="profile">
             <div class="container">
-                <img src="" alt="Profile picture" id="picture">
+                <img src="" alt="Profile picture" class="picture">
             </div>
             <div class="container">
-                <h1 id="name"></h1>
-                <h2 id="description"></h2>
-                <div id="separator"></div>
-                <h2 id="location"></h2>
-                <div id="links"></div>
+                <h1 class="name"></h1>
+                <h2 class="description"></h2>
+                <div class="separator"></div>
+                <h2 class="location"></h2>
+                <div class="links"></div>
             </div>
         </section>
         <section class="navigation">
@@ -43,53 +43,26 @@
                 </ul>
             </nav>
         </section>
-        <section class="section-slider" id="information">
-            <section class="section-slide" id="technologies">
+        <section class="section-slider information">
+            <section class="section-slide  technologies">
                 <h1 class="title">Technologies</h1>
-                <div class="subgroup">
-                    <h2 class="title">Front-End</h2>
-                    <img src="" alt="HTML5" class="technology">
-                    <img src="" alt="CSS3" class="technology">
-                    <img src="" alt="JavaScript" class="technology">
-                    <img src="" alt="Typescript" class="technology">
-                    <img src="" alt="AngularJS" class="technology">
-                    <img src="" alt="ReactJS" class="technology">
-                </div>
-                <div class="subgroup">
-                    <h2 class="title">Server</h2>
-                    <img src="" alt="NodeJS" class="technology">
-                    <img src="" alt="Python" class="technology">
-                    <img src="" alt="C#" class="technology">
-                    <img src="" alt="C/C++" class="technology">
-                </div>
-                <div class="subgroup">
-                    <h2 class="title">Database</h2>
-                    <img src="" alt="" class="technology">
-                    <img src="" alt="" class="technology">
-                </div>
-                <div class="subgroup">
-                    <h2 class="title">Deployment</h2>
-                    <img src="" alt="" class="technology">
-                    <img src="" alt="" class="technology">
-                    <img src="" alt="" class="technology">
-                    <img src="" alt="" class="technology">
-                </div>
+                <div class="content"></div>
             </section>
 
-            <section class="section-slide is-active" id="projects">
+            <section class="section-slide is-active projects">
                 <h1 class="title">Projects</h1>
                 <div class="slider">
                 </div>
 
             </section>
 
-            <section class="section-slide" id="contact">
+            <section class="section-slide contact">
                 <h1 class="title">Contact</h1>
                 <form name="contact-form" method="POST">
-                    <input type="text" name="name" id="name" placeholder="Ex.: Bogdan Popov">
-                    <input type="text" name="company" id="company" placeholder="Ex.: Varta LTD.">
-                    <input type="text" name="_replyto" id="email" placeholder="Contact email...">
-                    <textarea name="message" id="message" placeholder="Type your message here..."></textarea>
+                    <input type="text" name="name" class="name" placeholder="Name">
+                    <input type="text" name="company" class="company" placeholder="Company">
+                    <input type="text" name="_replyto" class="email" placeholder="Email">
+                    <textarea name="message" class="message" placeholder="Message"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </section>
@@ -97,6 +70,7 @@
     </main>
 
     <script type="text/javascript" src="./scripts/information.js"></script>
+    <!-- <script type="text/javascript" src="./scripts/navigation.js"></script> -->
 </body>
 
 </html>

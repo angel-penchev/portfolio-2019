@@ -1,7 +1,7 @@
 {
   "user": {
     "name": "Angel Penchev",
-    "description": null,
+    "description": "Full Stack Software Developer",
     "picture": "https://avatars3.githubusercontent.com/u/26301867?v=4",
     "location": "Sofia, Bulgaria",
     "email": "angel.penchev.tsb@gmail.com",
@@ -30,36 +30,73 @@
   },
   "technologies": [
     {
-      "title": "CSS",
-      "img": "./img/icons/technologies/css3/css3-original.svg"
+      "title": "Front-End",
+      "languages": [
+        {
+          "title": "HTML3",
+          "img": "./img/icons/technologies/html5/html5-original.svg"
+        },
+        {
+          "title": "CSS3",
+          "img": "./img/icons/technologies/css3/css3-original.svg"
+        },
+        {
+          "title": "SASS",
+          "img": "./img/icons/technologies/sass/sass-original.svg"
+        },
+        {
+          "title": "JavaScript",
+          "img": "./img/icons/technologies/javascript/javascript-original.svg"
+        },
+        {
+          "title": "TypeScript",
+          "img": "./img/icons/technologies/typescript/typescript-original.svg"
+        },
+        {
+          "title": "AngularJS",
+          "img": "./img/icons/technologies/angularjs/angularjs-original.svg"
+        }
+      ]
     },
     {
-      "title": "Python",
-      "img": "./img/icons/technologies/python/python-original.svg"
+      "title": "Back-End",
+      "languages": [
+        {
+          "title": "Python",
+          "img": "./img/icons/technologies/python/python-original.svg"
+        },
+        {
+          "title": "NodeJS",
+          "img": "./img/icons/technologies/nodejs/nodejs-original.svg"
+        },
+        { "title": "C", "img": "./img/icons/technologies/c/c-original.svg" },
+        {
+          "title": "C++",
+          "img": "./img/icons/technologies/cplusplus/cplusplus-original.svg"
+        }
+      ]
     },
     {
-      "title": "HTML",
-      "img": "./img/icons/technologies/html5/html5-original.svg"
+      "title": "Database",
+      "languages": [
+        {
+          "title": "mysql",
+          "img": "./img/icons/technologies/mysql/mysql-original.svg"
+        }
+      ]
     },
     {
-      "title": "JavaScript",
-      "img": "./img/icons/technologies/javascript/javascript-original.svg"
-    },
-    {
-      "title": "Objective-C",
-      "img": "./img/icons/technologies/c/c-original.svg"
-    },
-    {
-      "title": "C++",
-      "img": "./img/icons/technologies/cplusplus/cplusplus-original.svg"
-    },
-    {
-      "title": "Java",
-      "img": "./img/icons/technologies/java/java-original.svg"
-    },
-    {
-      "title": "C#",
-      "img": "./img/icons/technologies/csharp/csharp-original.svg"
+      "title": "Deployment",
+      "languages": [
+        {
+          "title": "git",
+          "img": "./img/icons/technologies/git/git-original.svg"
+        },
+        {
+          "title": "docker",
+          "img": "./img/icons/technologies/docker/docker-original.svg"
+        }
+      ]
     }
   ],
   "projects": [
