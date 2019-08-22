@@ -33,8 +33,8 @@ body {
   background-size: cover; }
 
 main {
-  width: 80%;
-  height: 80%;
+  width: 92.5%;
+  height: 92.5%;
   margin: auto;
   position: relative;
   top: 50%;
@@ -48,12 +48,19 @@ main {
   -o-transform: translateY(-50%);
   display: grid;
   grid-template-columns: 3fr 2fr 6fr;
-  align-items: center; }
+  align-items: center;
+  border: 1px red solid; }
+  @media screen and (max-width: 700px) {
+    main {
+      grid-template-columns: 1fr; } }
+  @media screen and (max-width: 265px) {
+    main {
+      display: none; } }
 
 h1 {
   color: var(--primary-color);
   font-family: var(--primary-font);
-  font-size: 2.5em;
+  font-size: calc(28px + (38 - 28) * ((100vw - 265px) / (2160 - 265)));
   font-weight: 300;
   text-align: center;
   width: 100%; }
@@ -61,14 +68,20 @@ h1 {
 h2 {
   color: var(--secondary-color);
   font-family: var(--primary-font);
-  font-size: 1.25em;
+  font-size: calc(16px + (24 - 16) * ((100vw - 265px) / (2160 - 265)));
   font-weight: 150; }
 
 h3 {
   color: var(--suttle-color);
   font-family: var(--primary-font);
-  font-size: 1em;
+  font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (2160 - 300)));
   font-weight: 100; }
+
+p {
+  color: var(--suttle-color);
+  font-family: var(--primary-font);
+  font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (2160 - 300)));
+  font-weight: 75; }
 
 a {
   text-decoration: none;
@@ -78,8 +91,14 @@ a {
 /* Start of Profile section styles */
 .profile {
   text-align: center; }
+  @media screen and (max-width: 700px) {
+    .profile {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-column-gap: 0.25em;
+      align-items: center; } }
   .profile #picture {
-    width: 75%;
+    width: 85%;
     border-radius: 100%;
     margin: 1em;
     box-shadow: var(--primary-shadow); }
@@ -90,6 +109,9 @@ a {
     width: 1.75em;
     border-radius: 100%;
     background-color: var(--suttle-color); }
+    @media screen and (max-width: 700px) {
+      .profile #links .profile-link img {
+        width: 1.5em; } }
 
 /* End of Profile section styles */
 /* Start of Navigation section styles */
@@ -97,8 +119,10 @@ a {
   display: flex;
   height: 100%;
   flex-direction: column;
-  justify-content: space-evenly;
-  padding-left: 5%; }
+  justify-content: space-evenly; }
+  @media screen and (max-width: 700px) {
+    .navigation {
+      flex-direction: row; } }
   .navigation li {
     float: right;
     list-style: none;
@@ -120,7 +144,7 @@ a {
 /* Start of Information section styles */
 .section-slider {
   justify-content: center;
-  padding: 10%;
+  padding: 2.5%;
   height: 100%;
   background: var(--information-gradient); }
   .section-slider .section-slide {
@@ -141,30 +165,30 @@ a {
     transition: -webkit-transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; }
-  .section-slider #projects .slider {
-    display: block;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    /* IE */
-    -moz-transform: translateY(-50%);
-    /* Firefox */
-    -webkit-transform: translateY(-50%);
-    /* Safari and Chrome */
-    -o-transform: translateY(-50%); }
-    .section-slider #projects .slider .slide {
-      display: none;
-      text-align: center; }
-      .section-slider #projects .slider .slide.is-active {
-        display: block; }
-      .section-slider #projects .slider .slide #project-image {
-        width: 10em;
-        border-radius: 100%; }
-      .section-slider #projects .slider .slide #project-title {
-        font-size: 1.75em; }
-      .section-slider #projects .slider .slide .project-languages img {
-        margin: 0.25em;
-        width: 1em; }
+  .section-slider #projects {
+    border: 1px blue solid; }
+    .section-slider #projects .slider {
+      display: block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      /* IE */
+      -moz-transform: translateY(-50%);
+      /* Firefox */
+      -webkit-transform: translateY(-50%);
+      /* Safari and Chrome */
+      -o-transform: translateY(-50%); }
+      .section-slider #projects .slider .slide {
+        display: none;
+        text-align: center; }
+        .section-slider #projects .slider .slide.is-active {
+          display: block; }
+        .section-slider #projects .slider .slide #project-image {
+          width: 30%;
+          border-radius: 100%; }
+        .section-slider #projects .slider .slide .project-languages img {
+          margin: 0.25em;
+          width: 2.5%; }
 
 /* End of Information section styles */

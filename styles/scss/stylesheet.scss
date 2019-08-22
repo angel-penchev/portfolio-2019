@@ -1,7 +1,7 @@
 /* Start of Global styles */
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-@mixin vertical-align($position: relative) {
+@mixin vertical_align($position: relative) {
   position: $position;
   top: 50%;
   transform: translateY(-50%);
@@ -9,6 +9,10 @@
   -moz-transform: translateY(-50%); /* Firefox */
   -webkit-transform: translateY(-50%); /* Safari and Chrome */
   -o-transform: translateY(-50%);
+}
+
+@mixin responsive_font_size($min_size_px, $min_size, $max_size, $min_vp_pix: 265px, $min_vp: 265, $max_vp: 2160) {
+  font-size: calc($min-size + ($max_size - $mix_size) * ((100vw - $min_vp) / ($max_vp - $min_vp)));
 }
 
 :root {
@@ -48,19 +52,28 @@ body {
 }
 
 main {
-  width: 80%;
-  height: 80%;
+  width: 92.5%;
+  height: 92.5%;
   margin: auto;
-  @include vertical-align();
+  @include vertical_align();
   display: grid;
   grid-template-columns: 3fr 2fr 6fr;
   align-items: center;
+  border: 1px red solid;
+
+  @media screen and (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
+
+  @media screen and (max-width: 265px) {
+    display: none;
+  }
 }
 
 h1 {
   color: var(--primary-color);
   font-family: var(--primary-font);
-  font-size: 2.5em;
+  font-size: calc(28px + (38 - 28) * ((100vw - 265px) / (2160 - 265)));
   font-weight: 300;
   text-align: center;
   width: 100%;
@@ -69,15 +82,22 @@ h1 {
 h2 {
   color: var(--secondary-color);
   font-family: var(--primary-font);
-  font-size: 1.25em;
+  font-size: calc(16px + (24 - 16) * ((100vw - 265px) / (2160 - 265)));
   font-weight: 150;
 }
 
 h3 {
   color: var(--suttle-color);
   font-family: var(--primary-font);
-  font-size: 1em;
+  font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (2160 - 300)));
   font-weight: 100;
+}
+
+p {
+  color: var(--suttle-color);
+  font-family: var(--primary-font);
+  font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (2160 - 300)));
+  font-weight: 75;
 }
 
 a {
@@ -89,9 +109,14 @@ a {
 /* Start of Profile section styles */
 .profile {
   text-align: center;
-
+  @media screen and (max-width: 700px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 0.25em;
+    align-items: center;
+  }
   #picture {
-    width: 75%;
+    width: 85%;
     border-radius: 100%;
     margin: 1em;
     box-shadow: var(--primary-shadow);
@@ -108,6 +133,10 @@ a {
         width: 1.75em;
         border-radius: 100%;
         background-color: var(--suttle-color);
+
+        @media screen and (max-width: 700px) {
+          width: 1.5em;
+        }
       }
     }
   }
@@ -120,7 +149,10 @@ a {
   height: 100%;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-left: 5%;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: row;
+  }
 
   li {
     float: right;
@@ -155,7 +187,7 @@ a {
 /* Start of Information section styles */
 .section-slider {
   justify-content: center;
-  padding: 10%;
+  padding: 2.5%;
   height: 100%;
   background: var(--information-gradient);
 
@@ -184,9 +216,10 @@ a {
   }
 
   #projects {
+    border: 1px blue solid;
     .slider {
       display: block;
-      @include vertical-align();
+      @include vertical_align();
 
       .slide {
         display: none;
@@ -197,18 +230,15 @@ a {
         }
 
         #project-image {
-          width: 10em;
+          width: 30%;
           border-radius: 100%;
         }
 
-        #project-title {
-            font-size: 1.75em;
-        }
 
         .project-languages {
           img {
             margin: 0.25em;
-            width: 1em;
+            width: 2.5%;
           }
         }
       }
