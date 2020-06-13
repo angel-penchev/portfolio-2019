@@ -1,9 +1,23 @@
 {
-  "dependencies": {
-    "node-sass": "^4.12.0"
+  "name": "portfolio",
+  "description": "Webpage containing all a list of all the developer technologies I am familiar with and all the significant project I have contributed to. The hosted version of the portfolio could be found [here](https://angel-penchev.github.io/portfolio/).<br> ![AppVeyor](https://img.shields.io/appveyor/ci/angel-penchev/portfolio?style=flat-square) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/angel-penchev/portfolio?style=flat-square) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://angel-penchev.mit-license.org)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel-penchev/portfolio.git"
   },
+  "author": "Angel Penchev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angel-penchev/portfolio/issues"
+  },
+  "homepage": "https://github.com/angel-penchev/portfolio#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch styles/scss -o styles/css"
+    "scss": "node-sass styles/scss -o styles/css -w"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
   }
 }
