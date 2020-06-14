@@ -28,15 +28,15 @@
         <section class="navigation">
             <nav class="navigation">
                 <ul class="navigation">
-                    <li class="is-active">
+                    <li class="nav-technologies is-active">
                         <img src="" alt="">
                         <h3>Technologies</h2>
                     </li>
-                    <li>
+                    <li class="nav-projects">
                         <img src="" alt="">
                         <h3>Projects</h2>
                     </li>
-                    <li>
+                    <li class="nav-contact">
                         <img src="" alt="">
                         <h3>Contact</h2>
                     </li>
@@ -44,19 +44,25 @@
             </nav>
         </section>
         <section class="section-slider information">
-            <section class="section-slide technologies">
+            <div class="navigation-arrows-sections">
+                <img class="up" src="./img/icons/slider/navigation-regular.svg" alt="">
+                <img class="down" src="./img/icons/slider/navigation-regular.svg" alt="">
+            </div>
+            <section class="slide technologies">
                 <h1 class="title">Technologies</h1>
                 <div class="content"></div>
             </section>
-
-            <section class="section-slide projects">
-                <h1 class="title">Projects</h1>
-                <div class="slider">
+            
+            <section class="slide projects">
+                <div class="navigation-arrows-project">
+                    <img class="left" src="./img/icons/slider/navigation-regular.svg" alt="">
+                    <img class="right" src="./img/icons/slider/navigation-regular.svg" alt="">
                 </div>
-
+                <h1 class="title">Projects</h1>
+                <div class="slider"></div>
             </section>
 
-            <section class="section-slide is-active contact">
+            <section class="slide contact">
                 <h1 class="title">Contact</h1>
                 <form name="contact-form" class="contact-form" method="POST">
                     <div class="contact-form-field">
@@ -82,7 +88,8 @@
     </main>
 
     <script type="text/javascript" src="./scripts/information.js"></script>
-    <!-- <script type="text/javascript" src="./scripts/navigation.js"></script> -->
+    <script type="text/javascript" src="./scripts/navigation.js"></script>
+    <script type="text/javascript" src="./scripts/main.js"></script>
 </body>
 
 </html>

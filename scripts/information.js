@@ -1,8 +1,3 @@
-function main() {
-    loadJSON((response) => injectDataInDocument(response))
-}
-
-
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -31,9 +26,9 @@ function injectDataInDocument(data) {
 
         data.user.links.forEach((link) => {
             profile.getElementsByClassName("links")[0].innerHTML +=
-                "<a href=\"" + link.href + "\" target=\"_blank\" class=\"profile-link\">" +
-                    "<img src=\"" + link.img + "\" alt=\"" + link.title + "\">" +
-                "</a>"
+                `<a href="${ link.href }" target="_blank" class="profile-link">
+                    <img src="${ link.img }" alt="${link.title}">
+                </a>`
         })
     }
 
@@ -43,15 +38,15 @@ function injectDataInDocument(data) {
         for (let i = 0; i < data.technologies.length; i++) {
             section = data.technologies[i];
             slide.innerHTML +=
-                "<div class=\"subgroup\">" + 
-                    "<h2 class=\"title\">" + section.title + "</h2>" +
-                    "<div class=\"languages\"></div>"
-                "</div>"
+                `<div class="subgroup"> 
+                    <h2 class="title">${ section.title }</h2>
+                    <div class="languages"></div>
+                </div>`
 
             languages = slide.getElementsByClassName("subgroup")[i].getElementsByClassName("languages")[0];;
             section.languages.forEach((language) => {
                 languages.innerHTML +=
-                "<img src=\"" + language.img + "\" alt=\"" + language.title + "\">"
+                `<img src="${ language.img }" alt="${ language.title }">`
             })
         }
         
@@ -63,26 +58,22 @@ function injectDataInDocument(data) {
         for (let i = 0; i < data.projects.length; i++) {
             project = data.projects[i]
             slider.innerHTML +=
-                "<div class=\"slide\">" + 
-                    "<img src=\"" + project.image + "\" alt=\"\" class=\"project-image\">" +
-                    "<h1 class=\"project-title\">" + project.title + "</h1>" +
-                    "<div class=\"project-languages\"></div>" +
-                    "<p class=\"project-description\">" + project.description + "</p>"
-                "</div>"
+                `<div class="project-slide">
+                    <img src="${ project.image }" alt="${ project.title }" class="project-image">
+                    <h1 class="project-title">${ project.title }</h1>
+                    <div class="project-languages"></div>
+                    <p class="project-description">${ project.description }</p>
+                </div>`
 
-            project_languages = slider.getElementsByClassName("slide")[i].getElementsByClassName("project-languages")[0];
+            project_languages = slider.getElementsByClassName("project-slide")[i].getElementsByClassName("project-languages")[0];
             project.languages.forEach((language) => {
                 project_languages.innerHTML +=
-                    "<img src=\"" + language.img + "\" alt=\"language.title\">";
+                    `<img src="${ language.img }" alt="${ language.title }">`
             })
         }
-
-        slider.getElementsByClassName("slide")[0].className += " is-active";
     }
 
     function injectContact() {
         document.getElementsByName("contact-form")[0].setAttribute("action", "https://formspree.io/" + data.user.email);
     }
 }
-
-main();

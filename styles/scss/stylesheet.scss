@@ -19,12 +19,7 @@
   --primary-color: #e0e0e0;
   --secondary-color: #c0c0c0;
   --suttle-color: #909090;
-  --information-gradient: linear-gradient(
-    0deg,
-    #dfdfdf00,
-    #90909030,
-    #dfdfdf00
-  );
+  --information-gradient: linear-gradient(0deg, #dfdfdf00, #90909030, #dfdfdf00);
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --primary-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
@@ -166,25 +161,25 @@ a {
     cursor: pointer;
 
     &:hover {
-        img {
-            content:url("../../img/icons/slider/navigation-selected.svg");
-        }
+      img {
+        content: url("../../img/icons/slider/navigation-selected.svg");
+      }
 
-        h3 {
-            color: var(--primary-color);
-        }
+      h3 {
+        color: var(--primary-color);
+      }
     }
 
     img {
-    transition: 0.4s;
+      transition: 0.4s;
       float: left;
       margin: 0.25em;
       width: 1em;
-      content:url("../../img/icons/slider/navigation-regular.svg");
+      content: url("../../img/icons/slider/navigation-regular.svg");
     }
 
     h3 {
-        transition: 0.4s;
+      transition: 0.4s;
     }
   }
 }
@@ -197,7 +192,7 @@ a {
   height: 100%;
   background: var(--information-gradient);
 
-  .section-slide {
+  .slide {
     display: none;
     width: 100%;
     height: 100%;
@@ -212,15 +207,6 @@ a {
     transition: opacity 0.4s ease-in-out 0.4s;
   }
 
-  .slide--next {
-    -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
-    -webkit-transition: -webkit-transform 0.4s ease-in-out;
-    transition: -webkit-transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  }
-
   .technologies {
     .content {
       @include vertical_align();
@@ -232,11 +218,18 @@ a {
     }
   }
   .projects {
+    .navigation-arrows-project {
+      .left {
+      }
+
+      .rigth {
+      }
+    }
     .slider {
       display: block;
       @include vertical_align();
 
-      .slide {
+      .project-slide {
         display: none;
         text-align: center;
 
@@ -248,7 +241,6 @@ a {
           width: 30%;
           border-radius: 100%;
         }
-
 
         .project-languages {
           img {
@@ -267,14 +259,14 @@ a {
       height: 80%;
       margin: auto;
       @include vertical_align();
-      
 
       .contact-form-field {
         position: relative;
         margin-bottom: 2.5vh;
         overflow: hidden;
 
-        input, textarea {
+        input,
+        textarea {
           width: 100%;
           height: 100%;
           outline: none;
@@ -284,7 +276,6 @@ a {
           font-size: 14px;
           background: none;
           border: none;
-          
 
           &:focus + label .field-name,
           &:valid + label .field-name {
@@ -299,7 +290,7 @@ a {
           }
 
           &:invalid + label::after {
-            border-color: rgb(125, 0, 0);
+            border-color: rgba(125, 0, 0, 0.5);
           }
         }
 
@@ -358,7 +349,7 @@ a {
         outline: none;
         text-align: center;
         transition: all 0.1s ease-in;
-        &:hover{
+        &:hover {
           background: var(--primary-color);
           color: black;
           border-radius: 10px;

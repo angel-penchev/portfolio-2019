@@ -4,12 +4,7 @@
   --primary-color: #e0e0e0;
   --secondary-color: #c0c0c0;
   --suttle-color: #909090;
-  --information-gradient: linear-gradient(
-    0deg,
-    #dfdfdf00,
-    #90909030,
-    #dfdfdf00
-  );
+  --information-gradient: linear-gradient(0deg, #dfdfdf00, #90909030, #dfdfdf00);
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --primary-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35); }
@@ -152,7 +147,7 @@ a {
   padding: 2.5%;
   height: 100%;
   background: var(--information-gradient); }
-  .section-slider .section-slide {
+  .section-slider .slide {
     display: none;
     width: 100%;
     height: 100%;
@@ -163,13 +158,6 @@ a {
     width: 100%;
     -webkit-transition: opacity 0.4s ease-in-out 0.4s;
     transition: opacity 0.4s ease-in-out 0.4s; }
-  .section-slider .slide--next {
-    -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
-    -webkit-transition: -webkit-transform 0.4s ease-in-out;
-    transition: -webkit-transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; }
   .section-slider .technologies .content {
     position: relative;
     top: 50%;
@@ -197,15 +185,15 @@ a {
     -webkit-transform: translateY(-50%);
     /* Safari and Chrome */
     -o-transform: translateY(-50%); }
-    .section-slider .projects .slider .slide {
+    .section-slider .projects .slider .project-slide {
       display: none;
       text-align: center; }
-      .section-slider .projects .slider .slide.is-active {
+      .section-slider .projects .slider .project-slide.is-active {
         display: block; }
-      .section-slider .projects .slider .slide .project-image {
+      .section-slider .projects .slider .project-slide .project-image {
         width: 30%;
         border-radius: 100%; }
-      .section-slider .projects .slider .slide .project-languages img {
+      .section-slider .projects .slider .project-slide .project-languages img {
         margin: 0.25em;
         width: 2.5%; }
   .section-slider .contact {
@@ -228,7 +216,8 @@ a {
         position: relative;
         margin-bottom: 2.5vh;
         overflow: hidden; }
-        .section-slider .contact .contact-form .contact-form-field input, .section-slider .contact .contact-form .contact-form-field textarea {
+        .section-slider .contact .contact-form .contact-form-field input,
+        .section-slider .contact .contact-form .contact-form-field textarea {
           width: 100%;
           height: 100%;
           outline: none;
@@ -239,17 +228,20 @@ a {
           background: none;
           border: none; }
           .section-slider .contact .contact-form .contact-form-field input:focus + label .field-name,
-          .section-slider .contact .contact-form .contact-form-field input:valid + label .field-name, .section-slider .contact .contact-form .contact-form-field textarea:focus + label .field-name,
+          .section-slider .contact .contact-form .contact-form-field input:valid + label .field-name,
+          .section-slider .contact .contact-form .contact-form-field textarea:focus + label .field-name,
           .section-slider .contact .contact-form .contact-form-field textarea:valid + label .field-name {
             transform: translateY(-125%);
             color: var(--primary-color);
             font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (2160 - 300))); }
           .section-slider .contact .contact-form .contact-form-field input:focus + label::after,
-          .section-slider .contact .contact-form .contact-form-field input:valid + label::after, .section-slider .contact .contact-form .contact-form-field textarea:focus + label::after,
+          .section-slider .contact .contact-form .contact-form-field input:valid + label::after,
+          .section-slider .contact .contact-form .contact-form-field textarea:focus + label::after,
           .section-slider .contact .contact-form .contact-form-field textarea:valid + label::after {
             transform: translateX(0); }
-          .section-slider .contact .contact-form .contact-form-field input:invalid + label::after, .section-slider .contact .contact-form .contact-form-field textarea:invalid + label::after {
-            border-color: #7d0000; }
+          .section-slider .contact .contact-form .contact-form-field input:invalid + label::after,
+          .section-slider .contact .contact-form .contact-form-field textarea:invalid + label::after {
+            border-color: rgba(125, 0, 0, 0.5); }
         .section-slider .contact .contact-form .contact-form-field label {
           position: absolute;
           width: 100%;
