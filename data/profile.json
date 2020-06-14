@@ -66,6 +66,10 @@
           "img": "./img/icons/technologies/python/python-original.svg"
         },
         {
+          "title": "Tensorflow",
+          "img": "./img/icons/technologies/tensorflow/tensorflow.png"
+        },
+        {
           "title": "NodeJS",
           "img": "./img/icons/technologies/nodejs/nodejs-original.svg"
         },
@@ -80,8 +84,12 @@
       "title": "Database",
       "languages": [
         {
-          "title": "mysql",
+          "title": "MySQL",
           "img": "./img/icons/technologies/mysql/mysql-original.svg"
+        },
+        {
+          "title": "SQLite",
+          "img": "./img/icons/technologies/sqlite/sqlite.png"
         }
       ]
     },
@@ -89,11 +97,15 @@
       "title": "Deployment",
       "languages": [
         {
-          "title": "git",
+          "title": "Git",
           "img": "./img/icons/technologies/git/git-original.svg"
         },
         {
-          "title": "docker",
+          "title": "Linux",
+          "img": "./img/icons/technologies/linux/linux-original.svg"
+        },
+        {
+          "title": "Docker",
           "img": "./img/icons/technologies/docker/docker-original.svg"
         }
       ]
@@ -101,42 +113,75 @@
   ],
   "projects": [
     {
-      "title": "Portfolio",
-      "description": "Webpage containing all a list of all the developer technologies I am familiar with and all the significant project I have contributed to.",
-      "image": "./img/profile.jpg",
+      "title": "Traffic Brain",
+      "description": "Open-source traffic light embedded system taking use of a machine learning classification model for decision making automation.",
+      "image": "https://github.com/braind3d/traffic-brain/blob/master/docs/img/Export/Logo.png?raw=true",
       "languages": [
-        {
-          "title": "CSS",
-          "img": "./img/icons/technologies/css3/css3-original.svg"
-        },
+
         {
           "title": "Python",
           "img": "./img/icons/technologies/python/python-original.svg"
         },
         {
-          "title": "HTML",
-          "img": "./img/icons/technologies/html5/html5-original.svg"
+          "title": "TensorFlow",
+          "img": "./img/icons/technologies/tensorflow/tensorflow.png"
         },
         {
-          "title": "JavaScript",
-          "img": "./img/icons/technologies/javascript/javascript-original.svg"
+          "title": "Java",
+          "img": "./img/icons/technologies/java/java-original.svg"
+        },
+        {
+          "title": "Spring Boot",
+          "img": "./img/icons/technologies/spring/spring-3.svg"
+        },
+        {
+          "title": "Flask",
+          "img": "./img/icons/technologies/flask/flask.png"
+        },
+        {
+          "title": "Raspberry",
+          "img": "./img/icons/technologies/sqlite/sqlite.png"
+        },
+        {
+          "title": "AngularJS",
+          "img": "./img/icons/technologies/angularjs/angularjs-original.svg"
+        },
+        {
+          "title": "Electron",
+          "img": "./img/icons/technologies/electron/electron-original.svg"
+        },
+        {
+          "title": "GitHub Actions",
+          "img": "./img/icons/technologies/githubactions/githubactions.png"
         }
       ],
-      "href_repository": "https://github.com/angel-penchev/portfolio",
-      "href_preview": "https://angel-penchev.github.io/portfolio/"
+      "href_repository": "https://github.com/braind3d/traffic-brain",
+      "href_preview": ""
     },
     {
       "title": "Readability",
-      "description": "Mobile application (Android/iOS) which captures text using the device's camera, recognizes it using Firebase ML Kit and sends it to an Bluetooth conected embedded Arduino device which converts it letter by letter to braille alphabet.",
-      "image": "./img/profile.jpg",
+      "description": "Mobile application for Android/iOS which captures text using the device's camera, recognizes it using Firebase ML Kit and sends it to an Bluetooth conected embedded Arduino device which converts it letter by letter to braille alphabet.",
+      "image": "https://github.com/angel-penchev/we-will-develop-it-later/blob/presentation/ic-drawable/setup-illustrations/export/ic_app_logo.png?raw=true",
       "languages": [
         {
-          "title": "Objective-C",
+          "title": "Dart",
+          "img": "./img/icons/technologies/dart/dart.png"
+        },
+        {
+          "title": "Flutter",
+          "img": "./img/icons/technologies/flutter/flutter-original.svg"
+        },
+        {
+          "title": "Firebase",
+          "img": "./img/icons/technologies/firebase/firebase-original.svg"
+        },
+        {
+          "title": "C",
           "img": "./img/icons/technologies/c/c-original.svg"
         },
         {
-          "title": "C++",
-          "img": "./img/icons/technologies/cplusplus/cplusplus-original.svg"
+          "title": "Arduino",
+          "img": "./img/icons/technologies/arduino/arduino.svg"
         },
         {
           "title": "Java",
@@ -147,62 +192,75 @@
       "href_preview": ""
     },
     {
-      "title": "We-will-develop-it-later",
-      "description": "But maybe, just maybe, we will finish it one day :)",
+      "title": "Librarity",
+      "description": "Web on-demand library service implementing a database of books, as well as an user system for a personalized experience.",
       "image": "./img/profile.jpg",
       "languages": [
+        {
+          "title": "AngularJS",
+          "img": "./img/icons/technologies/angularjs/angularjs-original.svg"
+        },
         {
           "title": "Java",
           "img": "./img/icons/technologies/java/java-original.svg"
-        }
-      ],
-      "href_repository": "https://github.com/angel-penchev/we-will-develop-it-later",
-      "href_preview": null
-    },
-    {
-      "title": "Abbjs-robotics",
-      "description": null,
-      "image": "./img/profile.jpg",
-      "languages": [
-        {
-          "title": "JavaScript",
-          "img": "./img/icons/technologies/javascript/javascript-original.svg"
         },
         {
-          "title": "CSS",
-          "img": "./img/icons/technologies/css3/css3-original.svg"
+          "title": "Spring Boot",
+          "img": "./img/icons/technologies/spring/spring-3.svg"
         },
         {
-          "title": "HTML",
-          "img": "./img/icons/technologies/html5/html5-original.svg"
+          "title": "SQLite",
+          "img": "./img/icons/technologies/sqlite/sqlite.png"
         }
       ],
-      "href_repository": "https://github.com/angel-penchev/abbjs-robotics",
-      "href_preview": null
-    },
-    {
-      "title": "Pythonsummertasks2018",
-      "description": "Repository (Portfolio) containing all the projects and programming tasks assigned for the summer holidays of 2018.",
-      "image": "./img/profile.jpg",
-      "languages": [],
-      "href_repository": "https://github.com/angel-penchev/PythonSummerTasks2018",
+      "href_repository": "https://github.com/angel-penchev/librarity",
       "href_preview": ""
     },
     {
-      "title": "Projectblank",
-      "description": "This repository contains the game contents for Project Blank, a contestant in the HackTUESx30 programing competition.",
+      "title": "Flask Online Store",
+      "description": "Simple online store Rest API containing full post and user request handling, authentication and database SQLite3 management.",
+      "image": "./img/profile.jpg",
+      "languages": [
+
+        {
+          "title": "Python",
+          "img": "./img/icons/technologies/python/python-original.svg"
+        },
+        {
+          "title": "Flask",
+          "img": "./img/icons/technologies/flask/flask.png"
+        },
+        {
+          "title": "SQLite",
+          "img": "./img/icons/technologies/sqlite/sqlite.png"
+        }
+      ],
+      "href_repository": "https://github.com/angel-penchev/flask-online-store",
+      "href_preview": ""
+    },
+    {
+      "title": "ProjectBlank",
+      "description": "A Half-Life Universe spin-off game, developed during the HackTUESx30 hackathon (2018).",
       "image": "./img/profile.jpg",
       "languages": [
         {
           "title": "C#",
           "img": "./img/icons/technologies/csharp/csharp-original.svg"
+        },
+        {
+          "title": "Unity",
+          "img": "./img/icons/technologies/unity/unity.png"
+        },
+        {
+          "title": "Blender",
+          "img": "./img/icons/technologies/blender/blender.png"
         }
       ],
       "href_repository": "https://github.com/angel-penchev/ProjectBlank",
       "href_preview": null
     },
     {
-      "title": "Textartstudio",
+      "title": "TextArtStudio",
       "description": "Simple web-hosted tool for creation of art using ASCII characters and exporting it to clipboard for later use.",
       "image": "./img/profile.jpg",
       "languages": [
