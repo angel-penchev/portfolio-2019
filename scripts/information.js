@@ -62,7 +62,7 @@ function injectDataInDocument(data) {
                     <img src="${ project.image }" alt="${ project.title }" class="project-image">
                     <h1 class="project-title">${ project.title }</h1>
                     <div class="project-languages"></div>
-                    <p class="project-description">${ project.description }</p>
+                    <div class="project-description"><p>${ project.description }</p></div>
                 </div>`
 
             project_languages = slider.getElementsByClassName("project-slide")[i].getElementsByClassName("project-languages")[0];

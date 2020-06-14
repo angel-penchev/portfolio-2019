@@ -196,100 +196,102 @@ a {
       .section-slider .projects .slider .project-slide .project-languages img {
         margin: 0.25em;
         width: 2.5%; }
-  .section-slider .contact {
-    padding: 10%; }
-    .section-slider .contact .contact-form {
-      width: 80%;
-      height: 80%;
-      margin: auto;
+      .section-slider .projects .slider .project-slide .project-description {
+        width: 80%;
+        margin: 0 auto; }
+  .section-slider .contact .contact-form {
+    padding: 10%;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    /* IE */
+    -moz-transform: translateY(-50%);
+    /* Firefox */
+    -webkit-transform: translateY(-50%);
+    /* Safari and Chrome */
+    -o-transform: translateY(-50%); }
+    .section-slider .contact .contact-form .contact-form-field {
       position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      /* IE */
-      -moz-transform: translateY(-50%);
-      /* Firefox */
-      -webkit-transform: translateY(-50%);
-      /* Safari and Chrome */
-      -o-transform: translateY(-50%); }
-      .section-slider .contact .contact-form .contact-form-field {
-        position: relative;
-        margin-bottom: 2.5vh;
-        overflow: hidden; }
-        .section-slider .contact .contact-form .contact-form-field input,
-        .section-slider .contact .contact-form .contact-form-field textarea {
-          width: 100%;
-          height: 100%;
-          outline: none;
-          padding-top: 1.5em;
-          color: var(--primary-color);
-          font-family: var(--primary-font);
-          font-size: 14px;
-          background: none;
-          border: none; }
-          .section-slider .contact .contact-form .contact-form-field input:focus + label .field-name,
-          .section-slider .contact .contact-form .contact-form-field input:valid + label .field-name,
-          .section-slider .contact .contact-form .contact-form-field textarea:focus + label .field-name,
-          .section-slider .contact .contact-form .contact-form-field textarea:valid + label .field-name {
-            transform: translateY(-125%);
-            color: var(--primary-color);
-            font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (2160 - 300))); }
-          .section-slider .contact .contact-form .contact-form-field input:focus + label::after,
-          .section-slider .contact .contact-form .contact-form-field input:valid + label::after,
-          .section-slider .contact .contact-form .contact-form-field textarea:focus + label::after,
-          .section-slider .contact .contact-form .contact-form-field textarea:valid + label::after {
-            transform: translateX(0); }
-          .section-slider .contact .contact-form .contact-form-field input:invalid + label::after,
-          .section-slider .contact .contact-form .contact-form-field textarea:invalid + label::after {
-            border-color: rgba(125, 0, 0, 0.5); }
-        .section-slider .contact .contact-form .contact-form-field label {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0;
-          border-bottom: 1px var(--secondary-color) solid;
-          pointer-events: none;
-          transition: all 0.4s ease-in; }
-          .section-slider .contact .contact-form .contact-form-field label::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -1px;
-            width: 100%;
-            height: 100%;
-            border-bottom: 3px var(--primary-color) solid;
-            transform: translateX(-100%);
-            transition: all 0.4s ease-in; }
-          .section-slider .contact .contact-form .contact-form-field label .field-name {
-            position: absolute;
-            top: 20px;
-            left: 0px;
-            transition: all 0.4s ease-in; }
-        .section-slider .contact .contact-form .contact-form-field input {
-          height: 5vh; }
-        .section-slider .contact .contact-form .contact-form-field textarea {
-          resize: none;
-          height: 15vh; }
-      .section-slider .contact .contact-form .btn-submit {
-        display: block;
-        height: 60px;
-        padding: 0;
-        width: 180px;
-        background: none;
-        margin: auto;
-        border: 2px solid var(--primary-color);
-        font-size: 18px;
-        font-family: var(--primary-font);
-        color: var(--primary-color);
-        cursor: pointer;
+      margin-bottom: 1.5vh;
+      overflow: hidden; }
+      .section-slider .contact .contact-form .contact-form-field input,
+      .section-slider .contact .contact-form .contact-form-field textarea {
+        width: 100%;
+        height: 100%;
         outline: none;
-        text-align: center;
-        transition: all 0.1s ease-in; }
-        .section-slider .contact .contact-form .btn-submit:hover {
-          background: var(--primary-color);
-          color: black;
-          border-radius: 10px;
-          cursor: pointer; }
+        padding-top: 1.5em;
+        color: var(--primary-color);
+        font-family: var(--primary-font);
+        font-size: 14px;
+        background: none;
+        border: none; }
+        .section-slider .contact .contact-form .contact-form-field input:focus + label .field-name,
+        .section-slider .contact .contact-form .contact-form-field input:valid + label .field-name,
+        .section-slider .contact .contact-form .contact-form-field textarea:focus + label .field-name,
+        .section-slider .contact .contact-form .contact-form-field textarea:valid + label .field-name {
+          transform: translateY(-125%);
+          color: var(--primary-color);
+          font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (2160 - 300))); }
+        .section-slider .contact .contact-form .contact-form-field input:focus + label::after,
+        .section-slider .contact .contact-form .contact-form-field input:valid + label::after,
+        .section-slider .contact .contact-form .contact-form-field textarea:focus + label::after,
+        .section-slider .contact .contact-form .contact-form-field textarea:valid + label::after {
+          transform: translateX(0); }
+        .section-slider .contact .contact-form .contact-form-field input:invalid + label::after,
+        .section-slider .contact .contact-form .contact-form-field textarea:invalid + label::after {
+          border-color: rgba(125, 0, 0, 0.5); }
+      .section-slider .contact .contact-form .contact-form-field label {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-bottom: 1px var(--secondary-color) solid;
+        pointer-events: none;
+        transition: all 0.4s ease-in; }
+        .section-slider .contact .contact-form .contact-form-field label::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -1px;
+          width: 100%;
+          height: 100%;
+          border-bottom: 3px var(--primary-color) solid;
+          transform: translateX(-100%);
+          transition: all 0.4s ease-in; }
+        .section-slider .contact .contact-form .contact-form-field label .field-name {
+          position: absolute;
+          top: 20px;
+          left: 0px;
+          transition: all 0.4s ease-in; }
+      .section-slider .contact .contact-form .contact-form-field input {
+        height: 5vh; }
+      .section-slider .contact .contact-form .contact-form-field textarea {
+        resize: none;
+        height: 11vh; }
+    .section-slider .contact .contact-form .btn-submit {
+      display: block;
+      height: 3em;
+      width: 10em;
+      border-radius: 0.5em;
+      padding: 0;
+      background: none;
+      margin: auto;
+      border: 2px solid var(--primary-color);
+      font-size: 18px;
+      font-family: var(--primary-font);
+      color: var(--primary-color);
+      cursor: pointer;
+      outline: none;
+      text-align: center;
+      transition: all 0.1s ease-in; }
+      .section-slider .contact .contact-form .btn-submit:hover {
+        background: var(--primary-color);
+        color: black;
+        cursor: pointer; }
 
 /* End of Information section styles */

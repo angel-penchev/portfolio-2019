@@ -248,13 +248,18 @@ a {
             width: 2.5%;
           }
         }
+
+        .project-description {
+          width: 80%;
+          margin: 0 auto;
+        }
       }
     }
   }
 
   .contact {
-    padding: 10%;
     .contact-form {
+      padding: 10%;
       width: 80%;
       height: 80%;
       margin: auto;
@@ -262,7 +267,7 @@ a {
 
       .contact-form-field {
         position: relative;
-        margin-bottom: 2.5vh;
+        margin-bottom: 1.5vh;
         overflow: hidden;
 
         input,
@@ -330,15 +335,17 @@ a {
 
         textarea {
           resize: none;
-          height: 15vh;
+          height: 11vh;
         }
       }
 
       .btn-submit {
         display: block;
-        height: 60px;
+        height: 3em;
+        width: 10em;
+        border-radius: 0.5em;
+
         padding: 0;
-        width: 180px;
         background: none;
         margin: auto;
         border: 2px solid var(--primary-color);
@@ -352,7 +359,6 @@ a {
         &:hover {
           background: var(--primary-color);
           color: black;
-          border-radius: 10px;
           cursor: pointer;
         }
       }
